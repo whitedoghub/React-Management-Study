@@ -5,11 +5,12 @@
 ### 개발환경
 
 ```
-> npm -v // npm 버전 확인
-> npm install -g npm // npm 최신 버전 업데이트
-> npm install -g create-react-app
+anywhere> npm -v // npm 버전 확인
+anywhere> npm install -g npm // npm 최신 버전 업데이트
+anywhere> npm install -g create-react-app
 > create-react-app management
-> git remote add origin <github address>
+project root> npm install @material-ui/core
+project root> git remote add origin <github address>
 ```
 
 VS Code에서 local git commit
@@ -41,7 +42,7 @@ const customer = [[..}, {...}]];
 const newArray = customers.map(c => {return (...)})
 ```
 
-```
+```javascript
 var numbers = [1, 4, 9];
 var roots = numbers.map(Math.sqrt);
 // roots는 [1, 2, 3]
