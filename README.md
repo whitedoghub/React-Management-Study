@@ -8,6 +8,14 @@
 
 `npm install -g create-react-app`
 
+`create-react-app management`
+
+`git remote add origin <github address>`
+
+`VS Code에서 local git commit`
+
+`git push --set-upstream origin master`
+
 ###
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
