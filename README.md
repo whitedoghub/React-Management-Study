@@ -20,7 +20,7 @@ git push --set-upstream origin master
 
 ##### 참고 : viewport
 
-```html,
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 ```
 
@@ -36,9 +36,9 @@ git push --set-upstream origin master
 
 ##### 참고 : map
 
-```html,
-const customer = [[..}, {...}]] const newArray = customers.map(c => {return
-(...)})
+```javascript
+const customer = [[..}, {...}]];
+const newArray = customers.map(c => {return (...)})
 ```
 
 ```
