@@ -1,3 +1,15 @@
+## Management System
+
+고객관리시스템 (test 용)
+
+### 개발환경
+
+`npm -v; npm install -g npm; // npm 최신 버전`
+
+`npm install -g create-react-app`
+
+###
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +78,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+```
+
+```
