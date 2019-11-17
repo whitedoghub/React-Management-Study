@@ -2,8 +2,6 @@
 
 고객관리시스템 (test 용)
 
-컴포넌트 라이프 사이클
-
 ### 설치 패키지 : global
 
 ```bash
@@ -16,7 +14,7 @@ anywhere> npm install -g create-react-app
 ### 설치 패키지 : client side
 
 ```
-project root> npm install @material-ui/core
+project client root> npm install @material-ui/core
 ```
 
 ### 설치 패키지 : server side
@@ -24,8 +22,11 @@ project root> npm install @material-ui/core
 ```nodejs
 server project root> npm install body-parser
 server project root> npm install express
+server project root> npm install mysql
 server project root> npm install dotenv
 ```
+
+.env 파일은 .gitignore에 포함
 
 ### 개발 환경 (local git, remote github 연동)
 

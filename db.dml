@@ -1,0 +1,5 @@
+insert into customer values (1, 'https://placeimg.com/64/64/1', '홍길동', '961212', '남자', '대학생');
+insert into customer values (2, 'https://placeimg.com/64/64/2', '하지원', '791212', '여자', '연예인');
+insert into customer values (3, 'https://placeimg.com/64/64/2', '장보고', '901212', '납자', '군인');
+
+commit;
