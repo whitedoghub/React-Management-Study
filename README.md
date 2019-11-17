@@ -2,6 +2,8 @@
 
 고객관리시스템 (test 용)
 
+컴포넌트 라이프 사이클
+
 ### 설치 패키지 : global
 
 ```bash
@@ -48,10 +50,20 @@ git push --set-upstream origin master
 ```
 
 <br>
-<hr/>
-<br>
+<hr>
 
-<li>참고 : dotenv</li>
+## 참고
+
+<li>Component Lift Cycle</li>
+
+<ol>
+    <li>constructor()</li>
+    <li>componentWillMount()</li>
+    <li>render()</li>
+    <li>componentDidMount()</li>
+</ol>
+
+<li>dotenv</li>
 
 ```
 .env file> EXPRESS_PORT=1009
@@ -63,7 +75,7 @@ require('dotenv').config();
 const port = process.env.EXPRESS_PORT || 5000;
 ```
 
-<li>참고 : viewport</li>
+<li>viewport</li>
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -79,7 +91,7 @@ const port = process.env.EXPRESS_PORT || 5000;
 
 [placeimg](https://placeimg.com)
 
-<li>참고 : map</li>
+<li>map</li>
 
 ```javascript
 const customer = [[..}, {...}]];
@@ -93,7 +105,7 @@ var roots = numbers.map(Math.sqrt);
 // numbers는 그대로 [1, 4, 9]
 ```
 
-<li>참고 : nodemon</li>
+<li>nodemon</li>
 
 서버 코드가 변경될 때 자동 재시작
 
