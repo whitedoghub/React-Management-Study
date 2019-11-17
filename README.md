@@ -2,16 +2,27 @@
 
 고객관리시스템 (test 용)
 
-### 개발 환경 (설치 패키지)
+### 설치 패키지 : global
 
-```
+```bash
 anywhere> npm -v // npm 버전 확인
 anywhere> npm install -g npm // npm 최신 버전 업데이트
 anywhere> npm install -g nodemon
 anywhere> npm install -g create-react-app
-> create-react-app management
+```
+
+### 설치 패키지 : client side
+
+```
 project root> npm install @material-ui/core
-project root> npm install dotenv
+```
+
+### 설치 패키지 : server side
+
+```nodejs
+server project root> npm install body-parser
+server project root> npm install express
+server project root> npm install dotenv
 ```
 
 ### 개발 환경 (local git, remote github 연동)
@@ -26,7 +37,21 @@ VS Code에서 local git commit
 git push --set-upstream origin master
 ```
 
-##### 참고 : dotenv
+### 개발 환경 (client proxy 설정)
+
+<li>package.json</li>
+
+```javascript
+{
+    "proxy": "http://localhost:5000"
+}
+```
+
+<br>
+<hr/>
+<br>
+
+<li>참고 : dotenv</li>
 
 ```
 .env file> EXPRESS_PORT=1009
@@ -38,7 +63,7 @@ require('dotenv').config();
 const port = process.env.EXPRESS_PORT || 5000;
 ```
 
-##### 참고 : viewport
+<li>참고 : viewport</li>
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -46,7 +71,7 @@ const port = process.env.EXPRESS_PORT || 5000;
 
 [viewport](http://bitly.kr/XNFAVz2)
 
-##### 참고 : 랜덤 이미지 URL
+<li>참고 : 랜덤 이미지 URL</li>
 
 ```html,
 예) https://placeimg.com/64/64/any
@@ -54,7 +79,7 @@ const port = process.env.EXPRESS_PORT || 5000;
 
 [placeimg](https://placeimg.com)
 
-##### 참고 : map
+<li>참고 : map</li>
 
 ```javascript
 const customer = [[..}, {...}]];
@@ -68,7 +93,7 @@ var roots = numbers.map(Math.sqrt);
 // numbers는 그대로 [1, 4, 9]
 ```
 
-##### 참고 : nodemon
+<li>참고 : nodemon</li>
 
 서버 코드가 변경될 때 자동 재시작
 
